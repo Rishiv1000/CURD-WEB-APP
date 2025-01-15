@@ -1,0 +1,157 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica', sans-serif;
+}
+
+body {
+  background: #f0f4f8;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Header Section */
+.header {
+  background-color: #3f51b5;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Table Styles */
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+  margin-bottom: 30px;
+}
+
+.submission-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.submission-table th, .submission-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.submission-table th {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.submission-table td {
+  color: #555;
+}
+
+.action-buttons button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.update {
+  background-color: #4caf50;
+  color: white;
+}
+
+.update:hover {
+  background-color: #45a049;
+}
+
+.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete:hover {
+  background-color: #e53935;
+}
+
+/* Form Card Styles */
+.form-card {
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form-card input:focus {
+  outline: none;
+  border-color: #3f51b5;
+}
+
+.questions-section {
+  margin-top: 10px;
+}
+
+.questions-section input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Button Styles */
+.submit-btn, .cancel-btn {
+  padding: 12px 24px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.submit-btn {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #303f9f;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background-color: #e53935;
+}

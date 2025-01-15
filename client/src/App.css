@@ -1,0 +1,25 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(45deg, #000000, #090600);
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff;
+  }
+  
+  /* Center the heading */
+  h1 {
+    text-align: center;        /* Horizontally center */
+    font-size: 2.5rem;         /* Font size of the heading */
+    font-weight: bold;         /* Make it bold */
+    color: #2C6B2F;            /* Dark Green color */
+    margin-top: 30px;          /* Margin on top */
+    margin-bottom: 30px;       /* Margin on bottom */
+  }
+  
